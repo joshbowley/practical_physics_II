@@ -1,30 +1,34 @@
-# Practical Physics — University of Exeter
+# Practical Physics II
 
-This repository contains my Python-based data analysis and visualisation work from my Practical Physics modules at the University of Exeter. Each Jupyter Notebook explores a different experiment or dataset, applying quantitative analysis, regression methods and uncertainty calculations in a clear and reproducible way.
+This repository contains analysis for my second-year physics laboratory modules. The work is implemented in Jupyter notebooks with a focus on reproducibility, clear documentation, and rigorous uncertainty analysis.
 
-Contents
+Experiments analysed include spectroscopy, X-ray diffraction, and optical/diffraction measurements, depending on the practical.
 
-- Experiment_1_...ipynb — Atomic Spectroscopy and Duane's Law
-- (more to be added as the course progresses)
+## Features
+- Full data-processing pipelines in Python
+- Uncertainty propagation and error analysis
+- Weighted linear regression and model fitting
+- Structured notebooks with clear markdown explanations
+- Plotting and visualisation for laboratory reports
+- Importable helper functions for consistent workflows
 
-## Tools and Libraries
-
-- Python 3
-- Jupyter Notebook
-- NumPy
-- Pandas
+## Technologies
+- Python
+- NumPy, SciPy, Pandas
 - Matplotlib
-- SciPy
-- uncertainties (for propagation of experimental error)
+- Jupyter
 
-## Key Skills Demonstrated
+## Skills Demonstrated
+- Scientific data analysis
+- Curve fitting and statistical treatment
+- Understanding of experimental physics
+- Clean notebook organisation for assessment and reporting
 
-- Data cleaning and numerical analysis in Python
-- Linear and non-linear regression
-- Error analysis and uncertainty propagation
-- Data visualisation and clear presentation of results
-- Reproducible scientific computation
+## Structure
+Each notebook contains:
+- Experiment description and aim
+- Raw data loading and cleaning
+- Processing and uncertainty propagation
+- Fitting and interpretation
+- Final results and discussion
 
-## Notes
-
-These notebooks were produced as part of undergraduate laboratory work. Each one focuses on using Python to analyse experimental data in a structured and transparent way, similar to workflows used in research, engineering and data analysis roles.
